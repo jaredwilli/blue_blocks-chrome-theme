@@ -1,0 +1,41 @@
+{
+   "name":             "Blue Blocks",
+   "version":          "1",
+   "manifest_version": 2,
+   "description":      "Padded room of blue blocks for those crazy nights of coding.",
+
+   "theme": {
+      "colors": {
+         "bookmark_text":        [ 255, 255, 255 ],
+         "button_background":    [ 255, 255, 255, 1 ],
+         "frame":                [ 201, 0, 0 ],
+         "frame_inactive":       [ 7, 81, 228 ],
+         "frame_incognito":      [ 7, 81, 228 ],
+         "frame_incognito_inactive": [ 201, 0, 0 ],
+         "ntp_background":       [ 255, 255, 255 ],
+         "ntp_text":             [ 255, 255, 255 ],
+         "tab_background_text":  [ 255, 255, 255 ],
+         "tab_text":             [ 255, 255, 255 ],
+         "toolbar":              [ 0, 0, 0 ],
+         "theme_tab_background": [ 18, 109, 253 ]
+      },
+      "images": {
+         "theme_frame":             "images/theme_frame.png",
+         "theme_ntp_background":    "images/theme_ntp_background.png",
+         "theme_ntp_attribution":   "images/theme_ntp_attribution.png",
+         "theme_toolbar":           "images/theme_toolbar.png"
+      },
+      "properties": {
+         "ntp_background_alignment": "top",
+         "ntp_background_repeat":    "no-repeat"
+      },
+      "tints": {
+         "background_tab":          [ -1, 0.5, 0.75 ],
+         "buttons":                 [ 0, 0, 1 ],
+         "frame":                   [ -1, -1, -1 ],
+         "frame_inactive":          [ -1, -1, 0.75 ],
+         "frame_incognito":         [ -1, 0.2, 0.35 ],
+         "frame_incognito_inactive": [ -1, 0.3, 0.6 ]
+      }
+   }
+}
